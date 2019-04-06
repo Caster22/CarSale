@@ -1,0 +1,22 @@
+h1 a {
+    color: #2E8B57;
+    text-shadow:5px 5px 10px black;
+    font-family: 'Lobster';
+}
+p {
+	font-family: 'Acme';
+}
+p1 {
+	font-family: 'Acme'
+	color: #800080;
+	font-size: 50%;
+}
+
+body {
+	background-image: url("BackFoto.jfif");
+	background-color: Silver;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
