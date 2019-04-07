@@ -1,22 +1,74 @@
 h1 a {
-    color: #2E8B57;
+    color: #008000;
     text-shadow:5px 5px 10px black;
     font-family: 'Lobster';
 }
+
 p {
-	font-family: 'Acme';
-}
-p1 {
-	font-family: 'Acme'
-	color: #800080;
-	font-size: 50%;
+    font-family: 'Acme';
 }
 
+
 body {
-	background-image: url("BackFoto.jfif");
-	background-color: Silver;
+    background-image: url("BackFoto.jfif");
+    background-color: Silver;
     padding-left: 15px;
     padding-right: 15px;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.page-header {
+    background-image: linear-gradient(#00FFFF, #7FFFD4);
+    margin-top: 0px;
+    padding: 20px 20px 20px 40px;
+}
+
+
+.page-header h1,  .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: OrangeRed  ;
+    font-size: 36pt;
+    text-decoration: none;
+
+}
+.page-header p {
+    color: OrangeRed;
+    font-size: 20pt;
+}
+
+.content {
+    margin-left: 40px;
+
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Lobster', cursive;
+}
+
+.date {
+    color: #828282;
+    font-size: 5pt;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.post {
+    margin-bottom: 70px;
+}
+
+.post h1 a, .post h1 a:visited {
+    color: YellowGreen ;
 }
