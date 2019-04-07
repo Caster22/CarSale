@@ -13,13 +13,23 @@
         <link rel="stylesheet" href="{% static 'css/bootstrap-reboot.css' %}">
 
         <link rel="stylesheet" href="{% static 'jquery/jquery-3.3.1.min.js' %}">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 
 		<link href="//fonts.googleapis.com/css?family=Lobster&subset=latin,latin-ext" rel="stylesheet" type="text/css">
 		<link href="//fonts.googleapis.com/css?family=Acme" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="{% static 'css/Auta.css' %}">
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
+        <div class="topnav" id="myTopnav">
+            <a href="http://127.0.0.1:8000/" class="active">Home</a>
+            <a href="http://127.0.0.1:8000/contact">Contact</a>
+            <a class ="topnav_right" href="http://127.0.0.1:8000/admin">Log In</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+            </a>
+        </div>
         <div class="page-header">
             {% if user.is_authenticated %}
                 <a href="{% url 'post_new' %}" class="top-menu"><span class="glyphicon glyphicon-plus"></span></a>
