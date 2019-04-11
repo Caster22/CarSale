@@ -151,3 +151,16 @@ h1, h2, h3, h4 {
   }
 }
 
+.Kontakty h1 {
+  font-family: 'Abhaya Libre';
+  font-weight: bolder;
+  color: #008000;
+}
+
+.Kontakty h2 {
+  font-weight: bold;
+}
+.Kontakty p {
+  font-weight: 100;
+  color: Grey;
+}
